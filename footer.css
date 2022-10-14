@@ -1,0 +1,57 @@
+.footer {
+    background-color: rgb(71, 71, 71);
+    height: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.footer > .teams {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 5px solid gray;
+}
+
+.footer > .teams a {
+    color:white;
+    text-decoration: none;
+    font-size: 1.5;
+}
+
+.footer > .education {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 5px solid gray;
+}
+
+.footer > .education a {
+    color:white;
+    text-decoration: none;
+    font-size: 1.5;
+}
+
+.footer > .privacy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 5px solid gray;
+}
+
+.footer > .privacy a {
+    color:white;
+    text-decoration: none;
+    font-size: 1.5;
+}
+
+.footer > .writing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer > .writing a {
+    color:white;
+    text-decoration: none;
+    font-size: 1.5;
+}

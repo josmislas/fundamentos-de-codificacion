@@ -1,0 +1,118 @@
+.start {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    
+}
+
+.start > .logo img {
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+.start > .links >.explore {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 50px;
+    color: gold;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.start > .links > .left {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.start > .links > .left a {
+    color: white;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 1em;
+}
+
+.start > .center {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+.start > .center > .spark a {
+    color: gray;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1em;
+}
+
+.start > .center > .spark i {
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.2em;
+}
+
+.start > .right > .buttons {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;    
+}
+
+.create button {
+    background-color: rgb(48, 47, 47);
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.create button i {
+    color: rgb(73, 179, 73);
+}
+
+.magnifying-glass a {
+    font-size: 2em;
+    width: 2em;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    text-decoration: none;
+}
+
+.log-in button {
+    background-color: rgb(48, 47, 47);
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.sing-up button {
+    background-color: rgb(48, 47, 47);
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}

@@ -1,0 +1,6 @@
+.homepage {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(58, 58, 75);
+    box-shadow: inset -200px 15px 90px 105px rgba(0,0,0,0.75);
+    color: white;
+}

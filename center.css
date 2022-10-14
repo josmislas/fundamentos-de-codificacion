@@ -1,0 +1,46 @@
+.center-page {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.center-page > .texts {
+    margin-left: 10%;
+}
+
+.center-page > .texts > .text {
+    font-size: 2em;
+}
+
+.center-page > .texts > .text2 {
+    font-size: 1.8em;
+}
+
+.center-page > .texts > .buttons2 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.center-page > .texts > .buttons2 > .sing-up button{
+    background-color: rgb(73, 179, 73);
+    border: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 10px 50px;
+}
+
+.center-page > .texts > .buttons2 > .learn-more button{
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+
+.center-page > .image img {
+    width: 100%;
+    box-shadow: -50px 40px 100px 8px rgba(0,0,0,0.75);
+}
